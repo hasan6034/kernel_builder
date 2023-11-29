@@ -140,12 +140,12 @@ jobs:
         - name: upload
           run: |
             cd kernel
-            if [ $(ls *.zip) ]; then
+            if [[ $(ls *.zip) ]]; then
               for file in *.zip ; do
                 bash ../tg_utils.sh up "${file}" "$(cat "${file}.info")"
               done
             fi
-            if [ $(ls *.log) ]; then
+            if [[ $(ls *.log) ]]; then
               for file in *.log ; do
                 if [ -e "${file}.info" ]; then
                   bash ../tg_utils.sh up "${file}" "$(cat "${file}.info")"
