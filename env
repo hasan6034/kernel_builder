@@ -36,4 +36,4 @@ export kernel_name=$(cat "${defconfig_file}" | grep "CONFIG_LOCALVERSION=" | sed
 export kernel_ver="$(make kernelversion)"
 export TIME=$(date +"%y%m%d-%H%M")
 
-export zip_name="${maindir}/${kernel_name}${SUFFIX}-${TIME}-${kernel_head}-${kernel_ver}.zip"
+export zip_name="${maindir}/${kernel_name}${SUFFIX}-${TIME}-${kernel_head}.zip"
