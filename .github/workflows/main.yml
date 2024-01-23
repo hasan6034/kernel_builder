@@ -52,7 +52,7 @@ on: # [push]
       CONTAINER:
         description: 'if you know you know'
         required: true
-        default: 'fedora:40'
+        default: 'fedora:39'
 
 env:
   BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
