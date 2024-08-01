@@ -34,10 +34,10 @@ index bd0e39332f55..b81959837942 100644
  	if (disposition != INPUT_IGNORE_EVENT && type != EV_SYN)
  		add_input_randomness(type, code, value);
 diff --git a/fs/exec.c b/fs/exec.c
-index 5b69af79cf06..e07614a594a4 100644
+index 93ce05cca024..cccfd271c400 100644
 --- a/fs/exec.c
 +++ b/fs/exec.c
-@@ -1706,11 +1706,13 @@ static int exec_binprm(struct linux_binprm *bprm)
+@@ -1707,11 +1707,13 @@ static int exec_binprm(struct linux_binprm *bprm)
  	return ret;
  }
  
@@ -51,7 +51,7 @@ index 5b69af79cf06..e07614a594a4 100644
  
  /*
   * sys_execve() executes a new program.
-@@ -1720,10 +1722,13 @@ static int do_execveat_common(int fd, struct filename *filename,
+@@ -1721,10 +1723,13 @@ static int do_execveat_common(int fd, struct filename *filename,
  			      struct user_arg_ptr envp,
  			      int flags)
  {
@@ -137,6 +137,3 @@ index 5e3aef49c291..7c4954e64adb 100644
  
  	if ((flags & ~(AT_SYMLINK_NOFOLLOW | AT_NO_AUTOMOUNT |
  		       AT_EMPTY_PATH | KSTAT_QUERY_FLAGS)) != 0)
--- 
-2.45.0
-

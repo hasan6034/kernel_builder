@@ -27,6 +27,3 @@ index 3b62683fe332..741ee091747e 100644
  	if (mode & ~S_IRWXO)	/* where's F_OK, X_OK, W_OK, R_OK? */
  		return -EINVAL;
  
--- 
-2.45.0
-

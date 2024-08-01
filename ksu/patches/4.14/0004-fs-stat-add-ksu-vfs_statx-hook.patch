@@ -26,6 +26,3 @@ index 0fda4b6b8fb2..5e3aef49c291 100644
  	if ((flags & ~(AT_SYMLINK_NOFOLLOW | AT_NO_AUTOMOUNT |
  		       AT_EMPTY_PATH | KSTAT_QUERY_FLAGS)) != 0)
  		return -EINVAL;
--- 
-2.45.0
-

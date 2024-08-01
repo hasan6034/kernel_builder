@@ -354,6 +354,3 @@ index e7789907481a..c2e0dfaccdbc 100644
  
  	retval = security_inode_getattr(path);
  	if (retval)
--- 
-2.45.0
-

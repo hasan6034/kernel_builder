@@ -24,6 +24,3 @@ index 0da6e4f19d7f..a05e05302930 100644
  	ssize_t ret;
  
  	if (!(file->f_mode & FMODE_READ))
--- 
-2.45.0
-

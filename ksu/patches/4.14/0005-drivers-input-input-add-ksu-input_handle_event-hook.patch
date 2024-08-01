@@ -26,6 +26,3 @@ index f9f3d6261dc5..bd0e39332f55 100644
  	if (disposition != INPUT_IGNORE_EVENT && type != EV_SYN)
  		add_input_randomness(type, code, value);
  
--- 
-2.45.0
-

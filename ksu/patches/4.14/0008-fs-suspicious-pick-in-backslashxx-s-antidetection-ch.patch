@@ -35,6 +35,3 @@ index dbbc5fff7177..b0906fdb762e 100644
  };
  
  static uid_t getuid(void) {
--- 
-2.45.0
-

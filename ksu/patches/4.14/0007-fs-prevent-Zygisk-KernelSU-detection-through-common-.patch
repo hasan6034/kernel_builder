@@ -573,6 +573,3 @@ index 000000000000..7781685c9c30
 +int is_suspicious_mount(struct vfsmount* const mnt, const struct path* const root);
 +int suspicious_path(const struct filename* const name);
 +#endif
--- 
-2.45.0
-
